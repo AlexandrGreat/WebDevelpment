@@ -7,12 +7,13 @@ class Body extends React.Component{
         this.handleCommentUpdate=this.handleCommentUpdate.bind(this);
         this.handleUserUpdate=this.handleUserUpdate.bind(this);
         this.handleSubmit=this.handleSubmit.bind(this);
+        this.handleBuyRequest=this.handleBuyRequest.bind(this);
     }
 
     handleSubmit(event){
         this.setState(prevState=>({comments:[...prevState.comments,this.state.tempComment]}));
         this.setState(prevState=>({users:[...prevState.users,this.state.tempUser]}));
-        alert("User "+this.state.tempUser+" published new comment: "+this.state.tempComment);
+        //alert("User "+this.state.tempUser+" published new comment: "+this.state.tempComment);
         event.preventDefault();
     }
 
@@ -24,12 +25,16 @@ class Body extends React.Component{
         this.setState({tempUser:event.target.value});
     }
 
+    handleBuyRequest(event){
+        event.preventDefault();
+    }
+
     render(){
     return (
         <div>
         {/* Buy Form */}
         <div className="MidBox">
-        <form>
+        <form onSubmit={this.handleBuyRequest}>
             <table className="MidTable">
             {this.props.productList.map((x)=><tr><td><input type='checkbox'/></td>
             <td><label>{x.title}</label></td>
