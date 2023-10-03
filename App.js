@@ -1,33 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import TitleComponent from './components/titleComponent';
-import TableComponent from './components/tableComponent';
+import {Body,Header,Menu,Footer} from './components/index';
 
-function App() {
+class App extends React.Component {
+  state={
+    productList:[{id:1,title:'Glock 19',description:'Austria, 9mm, 15 ammo'},
+    {id:2,title:'Desert Eagle',description:'Israel, .50AE, 7 ammo'}]
+  }
+  render(){
   return (
     <div className="App">
-      <TableComponent />
-      <TitleComponent />
-      <StandartViewComponent />
+      <Header />
+      <Menu/>
+      <Body productList={this.state.productList}/>
+      <Footer/>
     </div>
   );
-}
-
-const StandartViewComponent =()=>{
-  return(<header className="App-header">
-  <img src={logo} className="App-logo" alt="logo" />
-  <p>
-    Edit <code>src/App.js</code> and save to reload.
-  </p>
-  <a
-    className="App-link"
-    href="https://reactjs.org"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Learn React
-  </a>
-</header>)
+  }
 }
 
 export default App;
