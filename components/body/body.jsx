@@ -46,7 +46,7 @@ class Body extends React.Component{
         this.setState(prevState=>({users:[...prevState.users,this.state.tempUser]}));
         event.preventDefault();
         this.handleSorterChange(event);
-        alert("User "+this.state.tempUser+" has posted new comment for "+this.state.topic);
+        //alert("User "+this.state.tempUser+" has posted new comment for "+this.state.topic);
     }
 
     handleCommentUpdate(event){
@@ -84,6 +84,7 @@ class Body extends React.Component{
                     <option value="">None</option>
                     {this.props.productList.map((x)=><option value={x.title}>{x.title}</option>)}
                 </select>
+                <button onClick={this.handleSorterChange}>update</button>
                 <table width={'100%'} border={1}>
                 {this.state.sComments.map((x,index)=><tr>
                 <td><label><h4>{this.state.sUsers.at(index)} - {this.state.sTopics.at(index)}</h4> {x}</label></td></tr>)}
