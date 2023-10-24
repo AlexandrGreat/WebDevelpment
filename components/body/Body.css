@@ -1,0 +1,18 @@
+.LeftBox{
+    text-align: left;
+}
+
+.MidBox{
+    align-items: center;
+    text-align: justify;
+}
+
+.MidTable{
+    position: relative;
+    left:40%;
+}
+
+.MidButton{
+    position: relative;
+    left:60%;
+}
