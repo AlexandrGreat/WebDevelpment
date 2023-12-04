@@ -18,7 +18,7 @@ const Header=()=>{
         }
 
         return(<div>  
-        <h1>Welcome to LR8-9</h1>
+        <h1>Welcome to LR8</h1>
         <Button type='primary' style={{position:'absolute',right:0,top:20}} onClick={showModal}>{buttonText}</Button>
         <Modal destroyOnClose title='Registration' open={open} footer={''} onCancel={()=>setOpen(false)}>
         <Formik 
