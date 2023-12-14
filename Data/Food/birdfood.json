@@ -1,0 +1,76 @@
+{
+    "products":[
+        {
+            "id":1,
+            "title":"Kaytee",
+            "description":"Bird food 'Kaytee'",
+            "price":"2.35",
+            "discountPercentage":0,
+            "rating":4.4,
+            "thumbnail":"/images/birdfood/1.jpeg"
+        },
+        {
+            "id":2,
+            "title":"Vitakraft",
+            "description":"Bird food 'Vitakraft'",
+            "price":"2.71",
+            "discountPercentage":0,
+            "rating":4.4,
+            "thumbnail":"/images/birdfood/1.jpeg"
+        },
+        {
+            "id":3,
+            "title":"Goldenfeast",
+            "description":"Bird food 'Goldenfeast'",
+            "price":"2.98",
+            "discountPercentage":0.2,
+            "rating":4.4,
+            "thumbnail":"/images/birdfood/3.jpeg"
+        },
+        {
+            "id":4,
+            "title":"Wild Delight",
+            "description":"Bird food 'Wild Delight'",
+            "price":"2.15",
+            "discountPercentage":0,
+            "rating":4.4,
+            "thumbnail":"/images/birdfood/4.jpeg"
+        },
+        {
+            "id":5,
+            "title":"Maijer parrot food",
+            "description":"Bird food 'maiger parrot food'",
+            "price":"2.35",
+            "discountPercentage":0,
+            "rating":4.4,
+            "thumbnail":"/images/birdfood/5.jpeg"
+        },
+        {
+            "id":6,
+            "title":"Woodlands",
+            "description":"Bird food 'Woodlands'",
+            "price":"2.37",
+            "discountPercentage":0,
+            "rating":4.4,
+            "thumbnail":"/images/birdfood/6.jpeg"
+        },
+        {
+            "id":7,
+            "title":"Purina organic",
+            "description":"Bird food 'Purina organic'",
+            "price":"2.35",
+            "discountPercentage":0,
+            "rating":4.4,
+            "thumbnail":"/images/birdfood/7.jpeg"
+        },
+        {
+            "id":8,
+            "title":"Rio",
+            "description":"Bird food 'Rio'",
+            "price":"2.22",
+            "discountPercentage":0.3,
+            "rating":4.4,
+            "thumbnail":"/images/birdfood/8.jpeg"
+        }
+]
+}
