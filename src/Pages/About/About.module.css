@@ -1,0 +1,91 @@
+.MidText {
+    align-self: center;
+}
+
+.LeftColumn {
+    background-color: #eaf0ea;
+    width: 5%;
+    height: 190%;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    box-shadow: 3px 3px 3px #919191;
+    box-shadow: inset 3px 7px 7px #393838;
+}
+
+.RightColumn {
+    background-color: #eaf0ea;
+    width: 5%;
+    height: 190%;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    box-shadow: 3px 3px 3px #919191;
+    box-shadow: inset 3px 7px 7px #393838;
+}
+
+.Image1 {
+    position: absolute;
+    left: 20%;
+}
+
+.Image2 {
+    position: absolute;
+    left: 20%;
+    top: 120%;
+}
+
+.Image3 {
+    position: absolute;
+    right: 20%;
+    top: 70%;
+}
+
+.Text1 {
+    position: absolute;
+    left: 40%;
+    width: 40%;
+    font-weight: bold;
+    font-style: italic;
+    top: 35%;
+}
+
+.Text2 {
+    position: absolute;
+    right: 40%;
+    width: 40%;
+    font-weight: bold;
+    font-style: italic;
+    top: 85%;
+    text-align: right;
+}
+
+.Text3 {
+    position: absolute;
+    left: 40%;
+    width: 40%;
+    font-weight: bold;
+    font-style: italic;
+    top: 140%;
+}
+
+.Heading1 {
+    font-style: italic;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.Heading2 {
+    font-style: italic;
+    position: absolute;
+    top: 70%;
+    right: 40%;
+}
+
+.Heading3 {
+    font-style: italic;
+    position: absolute;
+    top: 125%;
+    left: 40%;
+}

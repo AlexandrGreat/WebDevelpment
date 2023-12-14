@@ -1,0 +1,18 @@
+.Menu {
+    font-size: 25px;
+    cursor: pointer;
+}
+  
+.HorizontalMenu {
+    background-color: rgb(151, 223, 92);
+}
+  
+.ShopName {
+    font-style: italic;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    font-weight: bold;
+    font-size: 2vw;
+    color: orange;
+    position: relative;
+    left:-10%
+}

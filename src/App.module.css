@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vw;
+  width: 100%;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(151,223,92);
+  height: 60px;
+  box-shadow: 3px 7px 7px #393838;
+}
+
+.Footer {
+  height: 20%;
+  position: relative;
+  bottom: 0%;
+  background-color: rgb(85, 87, 84);
+  box-shadow: inset 0px 0px 5px #000000
+}
+
+.Content {
+  margin-top: 10px;
+  display: flex;
+  flex:1;
+  overflow-y: auto;
+  align-self: center;
+}

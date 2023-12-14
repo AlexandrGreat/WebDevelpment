@@ -1,0 +1,49 @@
+{
+    "products":[
+        {
+            "id":1,
+            "title":"Rodent cage - 1",
+            "description":"Rodent cage - 1",
+            "price":"2.51",
+            "discountPercentage":0.1,
+            "rating":4.4,
+            "thumbnail":"/images/rodentcages/1.jpeg"
+        },
+        {
+            "id":2,
+            "title":"Rodent cage - 2",
+            "description":"Rodent cage - 2",
+            "price":"2.62",
+            "discountPercentage":0,
+            "rating":4.4,
+            "thumbnail":"/images/rodentcages/2.jpeg"
+        },
+        {
+            "id":3,
+            "title":"Rodent cage - 3",
+            "description":"Rodent cage - 3",
+            "price":"2.21",
+            "discountPercentage":0,
+            "rating":4.4,
+            "thumbnail":"/images/rodentcages/3.jpeg"
+        },
+        {
+            "id":4,
+            "title":"Rodent cage - 4",
+            "description":"Rodent cage - 4",
+            "price":"2.56",
+            "discountPercentage":0.3,
+            "rating":4.9,
+            "thumbnail":"/images/rodentcages/4.jpeg"
+        },
+        {
+            "id":5,
+            "title":"Rodent cage - 5",
+            "description":"Rodent cage - 5",
+            "price":"2.21",
+            "discountPercentage":0,
+            "rating":4.4,
+            "thumbnail":"/images/rodentcages/5.jpeg"
+        }
+]
+}

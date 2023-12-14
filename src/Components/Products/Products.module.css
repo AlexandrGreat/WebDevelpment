@@ -1,0 +1,48 @@
+.itemCard{
+    margin: 10px;
+}
+
+.itemBadge{
+    margin: 12px;
+}
+
+.itemContainer {
+    padding: 10px;
+}
+
+.image {
+    height:100px !important;
+    object-fit: scale-down;
+}
+
+.NiceBox {
+    position: absolute;
+    border-color: black;
+    border-width: 1;
+    border-style: solid;
+    border-radius: 50px;
+    width: 60%;
+    height: 10%;
+    left: 20%;
+}
+
+.ShopArea {
+    position: relative;
+    top:100px;
+}
+
+.CategoryText {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    left: 37%;
+}
+
+.ShopMain {
+    background-color: white;
+}
+
+.BoldText {
+    font-weight: bold;
+}
